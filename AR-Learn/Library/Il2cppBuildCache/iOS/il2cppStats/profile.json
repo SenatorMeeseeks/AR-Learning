@@ -1,0 +1,94 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "il2cpp_outer", "ph":"M", "name": "process_name", "args": {"name": "il2cpp_outer"} },
+{ "pid": "il2cpp_outer", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -1} },
+{ "pid": "il2cpp_outer", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 1686627922826626,"dur": 159605, "ph":"X", "name": "il2cpp.exe"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 1686627922837949,"dur": 139699, "ph":"X", "name": "BeeDriverRunner.Execute"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 1686627922981573,"dur": 2603, "ph":"X", "name": "Write Analytics"},
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "Main thread" } },
+{ "pid": 0, "tid": 1, "ts": 1686627922880784, "dur": 91492, "ph": "X", "name": "Build FinalProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686627922883292, "dur": 8902, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686627922892499, "dur": 79600, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686627922972152, "dur": 124, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686627922979012, "dur": 2182, "ph": "X", "name": "Main thread", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686627922909517, "dur":1396, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922910928, "dur":838, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686627922911785, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686627922911795, "dur":196, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686627922912000, "dur":16, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922912016, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952641, "dur":19, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952660, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952669, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952682, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952686, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952692, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952693, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952697, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952698, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952700, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952702, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952706, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952707, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952710, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952711, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952714, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952716, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952719, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952720, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952723, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952724, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952727, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952728, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952731, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952733, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952733, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922952738, "dur":1006, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686627922911858, "dur":165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686627922912025, "dur":30410, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686627922942440, "dur":5680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"IL2CPP_CodeGen /Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Library/Il2cppBuildCache/iOS/buildstate/artifacts/il2cpp_conv_dtjv.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1686627922948124, "dur":927, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686627922952556, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"FinalProgram" }}
+,{ "pid":12345, "tid":1, "ts":1686627922952557, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686627922911859, "dur":174, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686627922912033, "dur":30439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686627922942472, "dur":10156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686627922911866, "dur":174, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686627922912040, "dur":40570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686627922911884, "dur":159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686627922912044, "dur":40556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686627922911895, "dur":152, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686627922912047, "dur":40556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686627922911909, "dur":141, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686627922912050, "dur":40554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686627922911924, "dur":129, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686627922912053, "dur":40553, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686627922911939, "dur":118, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686627922912057, "dur":40576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686627922911948, "dur":112, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686627922912060, "dur":40551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686627922911978, "dur":85, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686627922912064, "dur":40533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686627922911987, "dur":80, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686627922912067, "dur":40540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686627922911996, "dur":77, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686627922912073, "dur":40539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686627922954307, "dur":201, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686627922981342, "dur": 303, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686627922978089, "dur": 3585, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{}
+
+],
+"meta_datetime": "06/12/2023 21:45:23",
+"meta_command_line": "/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/il2cpp/build/deploy/il2cpp.dll --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-macos --cachedirectory=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Library/Il2cppBuildCache/iOS --additional-cpp=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp --additional-cpp=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --dont-deploy-baselib --profiler-report --directory=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Temp/StagingArea/Data/Managed --generatedcppdir=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Library/Il2cppBuildCache/iOS/il2cppOutput --stats-output-dir=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Library/Il2cppBuildCache/iOS/il2cppStats --convert-in-graph",
+"meta_command_line_args": "/Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/il2cpp/build/deploy/il2cpp.dll --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-macos --cachedirectory=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Library/Il2cppBuildCache/iOS --additional-cpp=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp --additional-cpp=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --dont-deploy-baselib --profiler-report --directory=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Temp/StagingArea/Data/Managed --generatedcppdir=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Library/Il2cppBuildCache/iOS/il2cppOutput --stats-output-dir=/Users/kevbot/Documents/GitHub/AR-Learning/AR-Learn/Library/Il2cppBuildCache/iOS/il2cppStats --convert-in-graph",
+"meta_user_name": "kevbot",
+"meta_os_version": "Unix 11.0.0",
+"meta_cpu_count": "12"
+}
